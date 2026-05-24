@@ -51,6 +51,9 @@ The dataset includes variables such as:
 - Lower resting BPM may correlate with better workout endurance
 - Workout type strongly affects calorie burn patterns
 
+## 📊 Data Visualization
+
+![Correlation Heatmap](images/image.png)
 ---
 
 ## Project Structure
