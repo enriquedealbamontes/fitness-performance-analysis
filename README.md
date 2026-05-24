@@ -1,57 +1,74 @@
-# Gym Members Exercise Tracking Analysis
+# Fitness Performance Analysis
 
-### 1) Objetivo
-- Analizar datos de entrenamiento físico para estudiar la relación entre duración de entrenamiento, calorías quemadas e indicadores físicos.
+Exploratory Data Analysis project focused on workout habits, heart rate metrics and calorie expenditure.
 
-### 2) Dataset
-- Fuente: Gym Members Exercise Tracking Dataset
-- Variables clave: calorías quemadas, duración del entrenamiento, género, altura, peso y tipo de entrenamiento.
+This project analyzes relationships between training intensity, session duration, BPM metrics and calories burned using Python data analysis tools.
 
-### 3) Preguntas
-- ¿Existe relación entre duración y calorías?
-- ¿Cómo afecta el IMC?
-- ¿Existen diferencias entre tipos de entrenamiento?
+---
 
-### 4) Data issues & fixes
-- Valores duplicados eliminados mediante funciones de limpieza.
-- Conversión y tratamiento de variables numéricas.
-- Creación de nuevas variables derivadas para mejorar el análisis.
+## Objectives
 
-### 5) Pipeline
-- raw → clean → features → viz → export
+- Clean and preprocess the dataset
+- Explore workout and health patterns
+- Analyze correlations between variables
+- Generate insights through data visualization
+- Practice real-world EDA workflows
 
-### 6) Hallazgos
-- Insight 1: A mayor duración del entrenamiento, mayor gasto calórico.
-- Insight 2: El IMC permite comparar distintos perfiles físicos.
-- Insight 3: Las visualizaciones muestran correlaciones entre variables numéricas.
+---
 
-### 7) Estructura del proyecto
-- `src/` contiene funciones reutilizables (`cleaning`, `features`, `viz`)
-- `main.py` ejecuta el pipeline end-to-end
-- `notebooks/eda.ipynb` contiene el análisis y visualizaciones
+## Dataset Features
 
-### 8) Cómo ejecutar
-- `pip install -r requirements.txt`
-- Ejecutar pipeline: `python main.py`
-- Abrir notebook: `notebooks/eda.ipynb`
+The dataset includes variables such as:
 
-## Estructura recomendada del proyecto
+- Age
+- Gender
+- Weight & Height
+- Max BPM
+- Average BPM
+- Resting BPM
+- Session Duration
+- Calories Burned
+- Workout Type
+- Fat Percentage
 
-```text
-project/
-├── main.py
+---
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## Key Insights
+
+- Longer sessions do not always lead to higher calorie expenditure
+- Cardio workouts tend to show higher BPM averages
+- Lower resting BPM may correlate with better workout endurance
+- Workout type strongly affects calorie burn patterns
+
+---
+
+## Project Structure
+
+```bash
+fitness-performance-analysis/
+│
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   └── eda.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── cleaning.py
-│   ├── features.py
-│   ├── viz.py
+├── notebook/
 ├── README.md
-├── requirements.txt
-```
 
-```
+Future Improvements
+Interactive dashboard with Streamlit
+Predictive calorie burn model
+Advanced statistical analysis
+Machine Learning experimentation
+
+Author
+
+Enrique De Alba
+Data Science & AI
