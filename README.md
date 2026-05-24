@@ -58,12 +58,10 @@ The dataset includes variables such as:
 
 ## Project Structure
 
-```bash
-fitness-performance-analysis/
-│
-├── data/
-├── notebook/
-├── README.md
+    fitness-performance-analysis/
+    ├── data/
+    ├── notebook/
+    └── README.md
 
 Future Improvements
 Interactive dashboard with Streamlit
