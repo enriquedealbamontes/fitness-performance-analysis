@@ -53,7 +53,7 @@ The dataset includes variables such as:
 
 ## 📊 Data Visualization
 
-![Correlation Heatmap](images/image.png)
+![Correlation Heatmap](images/image)
 ---
 
 ## Project Structure
